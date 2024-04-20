@@ -1,0 +1,214 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(212, 149, 55, 1);
+}
+
+header {
+    background-image: linear-gradient( rgb(11, 11, 11), rgba(212, 149, 55, 1));
+    justify-content: space-between;
+    padding:15px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 1000px;
+    align-items: center; 
+    }
+
+nav {
+    font-size: 24px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 60px 25px 65px;
+    justify-content: space-between;
+    display: flex;
+    width:900px;
+    cursor: pointer;
+    border-radius:15px;
+    }
+
+nav a:hover{
+    background-image: linear-gradient( white, lightblue);
+    box-shadow: 0px 10px 5px 0px rgb(236, 50, 174), 0px 20px 5px 0px rgb(226, 241, 12);
+    transition:0.5s linear;
+    border-radius:15px;
+}
+ 
+h2 {
+    font-size:34px;
+    text-decoration: none;
+    text-align: center;
+}
+
+  a:link{
+    background-color:white; color:black; 
+    padding: 15px 25px 15px 25px; 
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 7px solid black;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    }
+
+h1 {
+    font-family: Regular 400;
+    text-align: left;
+    color: white;
+    font-size: 100px;
+    margin-top:75px ;
+    text-shadow:  4px 10px rgb(236, 50, 174);
+    position: absolute;
+    top: 60px;
+    left:300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.logo{
+    border-radius:53px;
+    opacity:70%;
+    margin: 45px;
+    box-shadow: 0 5px 15px 0 rgb(209, 19, 146);
+   
+}
+
+p {
+    font-size: 24px;
+    color: rgb(129, 11, 51);
+    text-align: center;
+}
+p1{
+    font-size: 14px;
+    color: rgb(129, 11, 51);
+   }
+   p2{
+    font-size: 20px;
+    color: rgb(198, 100, 133);
+    text-align: justify;
+   }
+
+summary {
+    font-size: 40px;
+    color: rgb(246, 227, 58);
+    font-family:Brush Script Std, cursive;
+      
+    }
+
+details{
+     background-color: rgb(129, 11, 51);
+    }
+
+ .info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: rgb(224, 192, 192);
+    padding:30px 23px 65px 23px; 
+    width: 400px;
+    margin:20px 25px 20px 35px ;
+    
+}
+
+article:hover {
+    box-shadow: 0 5px 5px 5px rgb(221, 10, 28);
+    background-color: #6c5365;
+    color:white;
+    font-size: 30px;
+    transition: 1s ease-in;
+    }
+
+.article-but1 {
+    font-weight: bold; color: black;
+    text-decoration: none;
+    background-color: rgba(54, 187, 206, 1);
+    border-radius: 15px;
+    font-size: 24px;
+    text-align: center;
+    padding: 7px 20px 7px 20px;
+    margin: 20px 10px 20px 30px;
+}
+.article-but2 {
+    font-weight: bold;color: black;
+    text-decoration: none;
+    background-color: rgba(253, 74, 74, 1);
+    border-radius: 15px;
+    font-size: 24px;
+    text-align: center;
+    padding: 7px 20px 7px 20px;
+    margin: 20px 10px 20px 30px;
+    }
+
+.article-but3 {
+    font-weight: bold;color: black;
+    text-decoration: none;
+    background-color: rgba(255, 235, 53, 1);
+    border-radius: 15px;
+    font-size: 24px;
+    text-align: center;
+    padding: 7px 20px 7px 30px;
+    margin: 20px 10px 20px 50px;
+}
+.article-but4 {
+    font-weight: bold;color: black;
+    text-decoration: none;
+    background-color: rgba(75, 180, 26, 1);
+    border-radius: 15px;
+    font-size: 24px;
+    text-align: center;
+     padding: 7px 20px 7px 20px;
+    margin: 20px 10px 20px 30px;
+    }
+
+    td {
+    color: white;
+    padding: 20px 70px 20px 70px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+
+footer {
+    padding:0px ;
+    width: 1000px;
+    height: 275px;
+    background-image: linear-gradient(rgba(212, 149, 55, 1), black);
+    text-shadow:  1px 2px rgb(182, 128, 164);
+}
+
+   
+footer a {
+    margin-right: 0px;
+    padding:55px 20px 40px 15px;
+    background-image: linear-gradient(rgba(212, 149, 55, 1), black);
+    border-radius: 25px;
+   
+}
+.gallery img {
+    opacity: 0.5;
+    width: 150px;
+    height: 200px;
+}
+
+.gallery img:hover {
+     opacity: 1;
+    border: 6px solid rgb(129, 11, 51);;
+    width: 270px;
+    height: 320px;
+    padding: 5px;
+    transition:0.5s ease-out ;
+}
+
